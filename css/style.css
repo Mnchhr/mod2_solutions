@@ -1,5 +1,67 @@
-@media (max-width: 767px) {}
+* {
+    box-sizing: border-box;
+}
 
-@media(min-width: 768px) and (max-width: 991px) {}
+header {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
 
-@media(min-width: 992px) {}
+.text {
+    background-color: rgb(190, 185, 185);
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: 2px black solid;
+    padding: 50px 20px 20px;
+    margin: 10px 10px 10px;
+}
+
+.title {
+    font-size: 25px;
+    padding: 5px 40px 5px;
+    background-color: green;
+    float: right;
+    margin: 10px 10px 10px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+
+/* Framework */
+
+
+/*For mobile devices*/
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
+
+
+/*For tablet devices*/
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+    .col-md-12 {
+        float: left;
+        width: 100%;
+    }
+}
+
+
+/*For desktop devices*/
+
+@media(min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
