@@ -5,7 +5,7 @@
 header {
     margin-top: 20px;
     margin-bottom: 15px;
-    font-size: 25px;
+    font-size: 175%;
     font-weight: bold;
     text-align: center;
 }
@@ -13,20 +13,32 @@ header {
 .text {
     background-color: rgb(190, 185, 185);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
     color: black;
-    border: 2px black solid;
+    border: 1px black solid;
     padding: 50px 20px 20px;
     margin: 10px 10px 10px;
 }
 
 .title {
-    font-size: 25px;
+    font-size: 125%;
     padding: 5px 40px 5px;
-    background-color: green;
     float: right;
     margin: 10px 10px 10px;
     font-weight: bold;
-    border: 2px solid black;
+    border: 1px solid black;
+}
+
+#chicken {
+    background-color: pink;
+}
+
+#sushi {
+    background-color: rgb(179, 51, 51);
+}
+
+#beef {
+    background-color: seagreen;
 }
 
 
